@@ -11,9 +11,15 @@ This repo contains the custom SIMETRI .hex file that can be used to flash bootlo
 ## To flash onto board:
 1. Make sure board is connected on the left side for flashing.
 2. In Git Bash, run:
-``` cd downloads ```
+``` 
+cd downloads 
+```
+
 3. Next, run:
-``` nrfjprog --program simetri52833_bootloader-0.9.2-12-ga48e944-dirty_s140_7.3.0.hex --chiperase --reset ```
+``` 
+nrfjprog --program simetri52833_bootloader-0.9.2-12-ga48e944-dirty_s140_7.3.0.hex --chiperase --reset 
+```
+
 4. Done
 
 ## What should happen:
